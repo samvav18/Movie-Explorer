@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Explorer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:,">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Website Heading -->
+    <header>
+        <h1>Movie Explorer</h1>
+    </header>
+
+    <!-- Movie Search Form -->
+    <main>
+        <form id="search-form">
+            <input
+                id="search-input"
+                type="search"
+                placeholder="Search movies..."
+                autocomplete="off"
+            >
+
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Movie Results Container -->
+        <div id="movie-grid"></div>
+        <div id="movie-grid"></div>
+        <nav id="pagination"></nav>
+        <div id="modal" hidden></div>
+    </main>
+
+    <!-- JavaScript Module -->
+    <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>
